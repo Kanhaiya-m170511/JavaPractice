@@ -185,3 +185,8 @@ try {
 - **Pattern Matching for Switch**
 - **Record Patterns (Standard)**
 - **Sequenced Collections**
+---
+###  🔹 Java Resources
+- https://www.w3resource.com/index.php
+- https://www.baeldung.com/get-started-with-java-series
+
