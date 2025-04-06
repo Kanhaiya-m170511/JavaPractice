@@ -22,21 +22,29 @@
 - **JVM**: Java Virtual Machine – converts bytecode to machine code.
 
 ---
-
-### 🔹 OOP Concepts
-- **Encapsulation** – binding data and methods into a single unit.
-- **Inheritance** – acquiring properties of another class.
-- **Polymorphism** – performing actions in many forms.
-- **Abstraction** – hiding internal implementation.
+### 🔹 Java Memory Management & Garbage Collections
+-**Garbage Collections**
 
 ---
 
-### 🔹 Data Types
+### 🔹 Data Types & Variable
 - **Primitive**: int, float, double, char, boolean
 - **Non-Primitive**: String, Arrays, Classes, Interfaces
+- **Type Casting**: Implicit (widening), Explicit (narrowing)
+- **Wrapper Classes**: Integer, Boolean, Unboxing, Autoboxing
+
+---
+### 🔹 Operators
+- **Operators**: +, -, *, /, %, ++, --, &&, ||, !, ==, !=, etc.
 
 ---
 
+### 🔹 Arrays and Strings
+-**Array** : 1D & 2D Arrays
+- **String Handling**: String, StringBuilder, StringBuffer, Common Methods: .length(), .charAt(), .substring(), .indexOf(), .equals(), etc.
+
+  
+---
 ### 🔹 Control Statements
 - `if`, `else`, `switch`
 - `for`, `while`, `do-while`
@@ -44,7 +52,30 @@
 
 ---
 
+### 🔹 Packages and Access Modifiers
+- **Packages**: Built-in (java.util, java.io), Custom packages
+- **Access Modifiers**: private, default, protected, public
+
+---
+
+### 🔹 OOP Concepts
+- **Class & Object** -- what is class & object.
+- **Encapsulation** – binding data and methods into a single unit.
+- **Inheritance** – acquiring properties of another class.
+- **Polymorphism** – performing actions in many forms.
+- **Abstraction** – hiding internal implementation.
+- **Interface** -- Including Java 9 features.
+- **Inner Classes**: static vs non-static inner classes, Local Inner class
+- **Static vs Non-Static** : 
+
+---
+
 ### 🔹 Exception Handling
+-**Types**: Checked & Unchecked
+-**Keywords**: try, catch, finally, throw, throws
+-**Custom Exceptions**
+
+
 ```java
 try {
     // risky code
@@ -66,13 +97,42 @@ try {
 | Queue     | PriorityQueue, Deque |
 
 ---
+### 🔹 Multithreading
+-**Thread Creation**:
+-**Thread class**
+-**Runnable interface**
+-**Thread Lifecycle**
+-**Synchronization**
+- Thread.sleep(), join(), yield()
+
+---
+### 🔹 File Handling (java.io & java.nio)
+-**File, FileReader, FileWriter, BufferedReader**
+-**Scanner Class**
+-**Serialization & Deserialization**
+
+---
+### 🔹 Java 8 Features
+-**Lambda Expressions**
+-**Functional Interfaces**
+-**Streams API**
+-**Optional Class**
+-**Method References**
+
+---
+### Annotations and Enums
+-**Built-in Annotations: @Override, @Deprecated, @SuppressWarnings**
+-**Custom Annotations**
+-**Enum Basics & Use Cases**
+
+---
 
 ## 2. Java 9 to 21 Features
 
 ### 🔹 Java 9
 - **JShell**: Interactive shell
-- **Modules**
-- **Stream API Enhancements**
+- **Modules**: Organize code into modules (module-info.java)
+- **Stream API Enhancements**: takeWhile(), dropWhile(), iterate()
 
 ---
 
@@ -83,13 +143,15 @@ try {
 
 ### 🔹 Java 11
 - **New String methods**: `isBlank()`, `lines()`, `strip()`, `repeat()`
-- **Standard HTTP Client**
+- **var in** lambda parameters
+- **Standard HTTP Client**: HTTP Client API (Standard, replaces HttpURLConnection)
+- **Launch Single-File Source-Code Programs**
 
 ---
 
 ### 🔹 Java 12
 - **Switch Expressions (preview)**
-
+  
 ---
 
 ### 🔹 Java 13–14
@@ -106,11 +168,12 @@ try {
 
 ### 🔹 Java 17 (LTS)
 - Finalized features: Sealed Classes, Pattern Matching, Records, Switch Expressions
+- Enhanced Pseudo-Random Number Generators
 
 ---
 
 ### 🔹 Java 18–20
-- **Simple Web Server**
+- **Simple Web Server**: jwebserver command
 - **Record Patterns** (Preview)
 - **Scoped Values**
 
