@@ -23,7 +23,7 @@
 
 ---
 ### 🔹 Java Memory Management & Garbage Collections
--**Garbage Collections**
+- **Garbage Collections**
 
 ---
 
@@ -40,7 +40,7 @@
 ---
 
 ### 🔹 Arrays and Strings
--**Array** : 1D & 2D Arrays
+- **Array** : 1D & 2D Arrays
 - **String Handling**: String, StringBuilder, StringBuffer, Common Methods: .length(), .charAt(), .substring(), .indexOf(), .equals(), etc.
 
   
@@ -71,9 +71,10 @@
 ---
 
 ### 🔹 Exception Handling
--**Types**: Checked & Unchecked
--**Keywords**: try, catch, finally, throw, throws
--**Custom Exceptions**
+- **Types**: Checked & Unchecked.
+- **Keywords**: try, catch, finally, throw, throws.
+- **Try with Resources**:
+- **Custom Exceptions**
 
 
 ```java
@@ -98,32 +99,32 @@ try {
 
 ---
 ### 🔹 Multithreading
--**Thread Creation**:
--**Thread class**
--**Runnable interface**
--**Thread Lifecycle**
--**Synchronization**
-- Thread.sleep(), join(), yield()
+- **Thread Creation**:
+- **Thread class**
+- **Runnable interface**
+- **Thread Lifecycle**
+- **Synchronization**
+  Thread.sleep(), join(), yield()
 
 ---
 ### 🔹 File Handling (java.io & java.nio)
--**File, FileReader, FileWriter, BufferedReader**
--**Scanner Class**
--**Serialization & Deserialization**
+- **File, FileReader, FileWriter, BufferedReader**
+- **Scanner Class**
+- **Serialization & Deserialization**
 
 ---
 ### 🔹 Java 8 Features
--**Lambda Expressions**
--**Functional Interfaces**
--**Streams API**
--**Optional Class**
--**Method References**
+- **Lambda Expressions**
+- **Functional Interfaces**
+- **Streams API**
+- **Optional Class**
+- **Method References**
 
 ---
 ### Annotations and Enums
--**Built-in Annotations: @Override, @Deprecated, @SuppressWarnings**
--**Custom Annotations**
--**Enum Basics & Use Cases**
+- **Built-in Annotations: @Override, @Deprecated, @SuppressWarnings**
+- **Custom Annotations**
+- **Enum Basics & Use Cases**
 
 ---
 
