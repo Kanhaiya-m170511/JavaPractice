@@ -1,0 +1,44 @@
+### Interview Questions on Operators in Java
+
+#### **Basic Level**
+
+1. **What are operators in Java?**
+2. **What is the difference between the `==` and `=` operators?**
+3. **Explain the purpose of the `+` operator in Java.**
+4. **What are relational (comparison) operators? Can you list them?**
+5. **What is the ternary operator in Java? How does it work?**
+6. **What does the `instanceof` operator do in Java?**
+7. **What is the difference between `&&` and `&` in Java?**
+8. **Explain how the `!` (logical NOT) operator works.**
+9. **What is the role of the `+=` operator in Java?**
+10. **What is the use of the bitwise operator `&`?**
+
+#### **Intermediate Level**
+
+1. **What is the difference between `++a` and `a++` in Java?**
+2. **What is the difference between `==` and `.equals()` in Java?**
+3. **How does the `|` (bitwise OR) operator differ from `||` (logical OR)?**
+4. **Explain the precedence and associativity of the arithmetic operators.**
+5. **Can we perform bitwise operations on boolean values?**
+6. **What happens when the `+` operator is used with strings in Java?**
+7. **What is the use of the shift operators (`<<`, `>>`, `>>>`) in Java?**
+8. **What is the difference between logical AND (`&&`) and bitwise AND (`&`)?**
+9. **How does the unary minus (`-`) operator work in Java?**
+10. **What is the difference between `!=` and `==` in Java?**
+
+#### **Advanced Level**
+
+1. **What is operator overloading in Java? Why doesn't Java support it?**
+2. **Explain the concept of autoboxing and unboxing in Java with respect to operators.**
+3. **How does the `instanceof` operator help in type-checking in Java?**
+4. **Can you explain the concept of operator precedence in Java with examples?**
+5. **What is the role of the ternary conditional operator in Java? Provide an example.**
+6. **Why is it important to understand the associativity of operators in Java?**
+7. **What are the potential pitfalls of using bitwise operators in Java?**
+8. **Explain how the increment and decrement operators work with respect to both post-increment and pre-increment forms.**
+9. **How would you handle the scenario where a `NullPointerException` occurs when using operators on objects in Java?**
+10. **How does Java handle operator precedence in expressions with mixed operators like `+` and `*`?**
+
+---
+
+These questions cover a broad range of topics related to operators in Java, from basic understanding to more complex scenarios. Feel free to use them as a guide for interviews or as study material. Let me know if you'd like any further additions!
