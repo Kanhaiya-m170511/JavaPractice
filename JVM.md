@@ -241,8 +241,6 @@ System.out.println(cl.getParent().getParent()); // null (Bootstrap)
 
 
 
-# Markdown content for Types of Class Loaders
-class_loader_types_md = """# 🧱 Types of Class Loaders in Java
 
 Java uses a **Delegation Hierarchy Model** to load classes, where each ClassLoader delegates the request to its parent before attempting to load it itself.
 
